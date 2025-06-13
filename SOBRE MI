@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>DISEÑO VISUAL CON ACTITUD URBANA </title>
+  <style>
+    /* Paleta de colores */
+    :root {
+      --negro: #000000;
+      --purpura: #6715FF;
+      --menta : #10FEE2;
+      --verde: #8AFF00;
+      --rosa: #FE14BB;
+      --morado: #C401DB;
+      --azul: #073575;
+      --marino: #3392EF;
+
+    }
+body {
+      margin: 0;
+      font-family: 'Roboto Mono',
+      background-color: var(--negro);
+      color: var(--azul);
+	background-image:url(https://i.pinimg.com/736x/d0/c0/97/d0c09799a725ed9043e764d764b203dc.jpg);
+background-size:cover;
+ <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+
+
+}
+
+    header {
+      background-color: var(--negro);
+      color: var(--azul);
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: var(--negro);
+      padding: 0.5rem 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: var(--marino);
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--azul);
+    }
+
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 2rem;
+    }
+
+    article {
+      flex: 1 1 45%;
+      background-color: var(--negro);
+      margin: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    article img  
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    article h2 {
+      color: var(--azul);
+    }
+
+    aside {
+      background-color: var(--marino);
+      padding: 1rem;
+      margin: 2rem;
+      border-left: 4px solid var(--azul);
+    
+    }
+
+    .columna-lateral img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 2px solid #3392EF;
+    
+    }
+    footer {
+      background-color: var(--azul);
+      color: var(--negro);
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+        
+
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JORGE MÉNDEZ </h1>
+    <p>DISEÑO VISUAL CON ACTITUD URBANA </p>
+  </header>
+
+<nav>
+    <a href="Examen final.html">INICIO</a>
+    <a href="Proyectos.html">PROYECTOS</a>
+    <a href="sobre mi.html">SOBRE MI</a>
+  </nav>
+
+  <section>
+    <article>
+ 
+   <h1> Diseño para que lo que somos se vea, se escuche y se sienta</h1>
+ <div class="columna-lateral">
+    <img src="https://fotosconai.com/wp-content/uploads/2024/09/4RUENCvenWD_koDsX6LOK_6762ecd4cb774a28a545c849be33b113.jpg" alt="Foto de Jorge">
+  
+    <p>Soy diseñador gráfico egresado de la Facultad de Artes Visuales de la UANL, en Monterrey, donde descubrí que el diseño va mucho más allá de las reglas y los márgenes. Durante mi formación, me enfoqué en branding, ilustración y diseño editorial, explorando siempre cómo llevar estas disciplinas al terreno de lo urbano, lo experimental y lo cultural.
+
+Más allá de la universidad, mi verdadera escuela ha sido la calle, los proyectos autogestivos, las colaboraciones con marcas locales y la creación constante. He tomado talleres, cursos y diplomados sobre tipografía, dirección de arte, diseño de moda y procesos de impresión, siempre con la intención de expandir mi lenguaje visual y entender nuevas formas de comunicar.
+
+Mi enfoque profesional mezcla lo técnico con lo emocional, lo funcional con lo narrativo. Porque no solo diseño logos, revistas o campañas: diseño experiencias que conectan con personas reales.</p>
+  </div>
+
+<footer>
+    <p>© 2025 JORGE MÉNDEZ. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
