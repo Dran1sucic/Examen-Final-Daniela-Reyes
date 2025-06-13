@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PROYECTOS </title>
+  <style>
+    :root {
+       --negro: #000000;
+      --purpura: #6715FF;
+      --menta : #10FEE2;
+      --verde: #8AFF00;
+      --rosa: #FE14BB;
+      --morado: #C401DB
+
+
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto Mono',
+      background-color: var(--negro);
+      color: var(--rosa);
+ <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+
+    }
+
+    header {
+      background-color: var(--negro);
+      color: var(--morado);
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: var(--negro);
+      padding: 0.5rem 2rem;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    nav a {
+      color: var(--rosa);
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--morado);
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    .producto {
+      background-color: var(--negro);
+      margin: 1rem auto;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 800px;
+    }
+
+    .producto img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    .producto h2 {
+      color: var(--rosa);
+    }
+
+    footer {
+      background-color: var(--negro);
+      color: var(--rosa);
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+<header>
+    <h1>JORGE MÉNDEZ </h1>
+    <p>DISEÑO VISUAL CON ACTITUD URBANA </p>
+  </header>
+
+<nav>
+    <a href="Examen final.html">INICIO</a>
+    <a href="Proyectos.html">PROYECTOS</a>
+    <a href="sobre mi.html">SOBRE MI</a>
+  </nav>
+<main>
+    <div class="producto">
+      <h2>Proyecto:MOIR Streetwear</h2>
+      <img src="https://www.logoku.com/image/d/data/items/1658295438_Ghotic-M-W-Ornamen-Logos.jpg"> 
+      <p>Rediseño de logotipo para una marca de ropa urbana con influencia gótica.</p>
+    </div>
+<div class="producto">
+      <h2>ZONA CERO — Revista Independiente</h2>
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/64d1cd57249705.59ce2fa54c911.jpg"> 
+      <p>Se trabajó el layout completo, dirección de arte.Diseño editorial para una publicación cultural sobre música electrónica y arte urbano.</p>
+    </div>
+
+<div class="producto">
+       <h2>CLANDESTINA FW24 </h2>
+      <img src="https://catsondrugs.com/cdn/shop/files/Time_to_Rave_Techno_Merch_from_catsondrugs.com.png?v=1744110776&width=1445"> 
+      <p>Cada prenda fue intervenida con arte gráfico personalizado. Serie de ilustraciones diseñadas para  colección cápsula de ropa femenina con inspiración rave y cyberpunk. </p>
+    </div>
+
+  <div class="producto">
+       <h2>DEEP CUTS</h2>
+      <img src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1697963334/catalog/1715999273800413184/sk19dd9z87zakwrmkhnk.jpg"> 
+      <p>Serie de ilustraciones aplicadas a stickers para una marca de streetwear. Inspirado en zines punk, graffiti y cultura lo-fi.</p>
+    </div>
+ <footer>
+    <p>© 2025 JORGE MÉNDEZ. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
